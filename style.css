@@ -1,34 +1,39 @@
 body { 
     background-image: url("https://www.diamondpet.com/wp-content/uploads/2021/03/kitten-sitting-on-floor-031621.jpg); 
   color: #222; 
-    font-family: "Oxygen", sans-serif; 
-  } 
-  #container { 
+    font-family: Arial, helveticatica,Sans-serif;
+}
+
+  #card { 
       border: 1px solid black; 
       border-radius: 1em; 
-      background-color: yellow; 
       padding-top: 10px; 
-      padding-right: 20px; 
+      padding-right: 10px; 
       padding-bottom: 10px; 
-      padding-left: 20px; 
+      padding-left: 10px; 
             width: 300px; 
-            margin: 1em auto; 
           -webkit-box-shadow: 10px 10px 12px -2px  
     
   } 
+  .title {
+      font-weight: bold;
+      
   img { 
-    width: 200px; 
+    width: 300px; 
   } 
+      
   .animal-info { 
           border: 1px solid; 
             border-radius: 1em; 
             padding: 1em; 
-            margin: 1em 0 0 0; 
+            margin: 0px; 
   } 
+      
   #interesting-fact { 
     text-align: center; 
     font-style: italic; 
   } 
+      
   span { 
     font-weight: bold; 
   } 
@@ -37,7 +42,8 @@ body {
     padding-left: 5px; 
     margin: 5px; 
   } 
-  ul { 
+      
+  list { 
     list-style-type: none; 
     padding-left: 5px; 
   }
